@@ -14,7 +14,7 @@
 
     for (i = 0; i < 26; i++)
     {
-        if (i != 'q' && i != 'e')
+        if (i != "q" && i != "e")
         {
             putchar(alp[i]);
         }
