@@ -3,22 +3,21 @@
 #include <string.h>
 
 /**
- * main - Print all the letters except q and e.
+ * main - prints the alphabet in lowercase followed by a new line.
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
- int main(void)
- {
-    char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-    int i;
+int main(void)
+{
+	int i;
 
-    for (i = 0; i < 26; i++)
-    {
-        if (i != 'q' && i != 'e')
-        {
-            putchar(alp[i]);
-        }
-    }
-    putchar('\n');
-    return (0);
- }
+	for (i = 97; i < 123; i++)
+	{
+		if (i != 101 && i != 113)
+		{
+			putchar(i);
+		}
+	}
+	putchar('\n');
+	return (0);
+}
