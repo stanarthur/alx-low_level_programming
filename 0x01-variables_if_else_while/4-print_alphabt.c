@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-/**
+vi 1/**
  * main - prints the alphabet in lowercase followed by a new line.
  *
  * Return: Always 0 (Success)
