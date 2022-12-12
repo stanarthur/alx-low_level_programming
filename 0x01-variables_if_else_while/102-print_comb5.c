@@ -7,13 +7,13 @@
  */
 int main(void)
 {
-int i, e, g, h, op1, op2;
+int i, a, b, c, ex1, ex2;
 
 i = a = b = c = 48;
 while (h < 58)
 {
 c = 48;
-while (g < 58)
+while (c < 58)
 {
 a = 48;
 while (a < 58)
@@ -21,9 +21,9 @@ while (a < 58)
 i = 48;
 while (i < 58)
 {
-op1 = (b * 10) + c;
-op2 = (a * 10) + i;
-if (op1 < op2)
+ex1 = (b * 10) + c;
+ex2 = (a * 10) + i;
+if (ex1 < ex2)
 {
 putchar(b);
 putchar(c);
