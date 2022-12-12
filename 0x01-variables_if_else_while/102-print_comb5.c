@@ -10,7 +10,7 @@ int main(void)
 int i, a, b, c, ex1, ex2;
 
 i = a = b = c = 48;
-while (h < 58)
+while (b < 58)
 {
 c = 48;
 while (c < 58)
