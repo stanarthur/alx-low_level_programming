@@ -3,9 +3,11 @@
 /**
 * main - prints putchar
 *
+* Description: returns the value for main.h
+*
 * Returns : always 0
 */
-int main(void)
+int main(void) 
 {
 _putchar('_');
 _putchar('p');
