@@ -1,13 +1,11 @@
 #include "main.h"
 
 /**
-* main - prints putchar
-*
-* Description: returns the value for main.h
-*
-* Returns : always 0
-*/
-int main(void) 
+ * main - prints _putchar
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
 _putchar('_');
 _putchar('p');
