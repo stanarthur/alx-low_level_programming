@@ -2,9 +2,10 @@
 
 /**
 * main - prints putchar
+*
 * Returns : always 0
 */
-int main(void)
+int _putchar(void)
 {
 _putchar('_');
 _putchar('p');
