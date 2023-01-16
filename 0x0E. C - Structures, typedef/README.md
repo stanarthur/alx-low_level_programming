@@ -1,0 +1,1 @@
+This folder contains answers to 0x0E structures typedef questions
