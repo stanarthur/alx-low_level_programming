@@ -1,0 +1,1 @@
+These are answers to 0x10. C  Variadic functions
