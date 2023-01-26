@@ -1,0 +1,1 @@
+This folder contains  answers to all 0x12 singly linked lists tasks
