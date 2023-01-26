@@ -10,16 +10,15 @@
  {
     size_t nlem;
 
-    nelem = 0;
-    while (h != NULL)
+    nlem = 0;
+    while (k != NULL)
     {
-        if (h->str == NULL)
+        if (k->str == NULL)
             printf("[%d] %s\n", 0, "(nil)");
         else
-            printf("[%d] %s\n", h->len, h->str);
-        h = h->next;
-        nelem++;
+            printf("[%d] %s\n", k->len, k->str);
+        k = k->nxt;
+        nlem++;
     }
     return (nlem);
  }
- 
