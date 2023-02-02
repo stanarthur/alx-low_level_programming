@@ -6,7 +6,7 @@
  * @b: binary.
  * Return: unsigned int or 0.
  */
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
     unsigned int ui;
     int len, base_two;
