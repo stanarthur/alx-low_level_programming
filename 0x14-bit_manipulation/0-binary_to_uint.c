@@ -5,7 +5,7 @@
  * unsigned int.
  * @b: binary.
  *
- * Return: unsigned int.
+ * Return: unsigned int or 0 if NULL.
  */
 unsigned int binary_to_uint(const char *b)
 {
