@@ -4,7 +4,7 @@
  * unsigned int.
  * @b: binary.
  *
- * Return: unsigned int or 0 if NULL.
+ * Return: unsigned int or 0 if b is 0, 1 or NULL.
  */
 unsigned int binary_to_uint(const char *b)
 {
