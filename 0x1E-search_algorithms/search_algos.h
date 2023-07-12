@@ -22,6 +22,7 @@ typedef struct listint_s
 	size_t index;
 	struct listint_s *next;
 } listint_t;
+
 /**
  * struct skiplist_s - Singly linked list with an express lane
  *
@@ -56,8 +57,5 @@ skiplist_t *linear_skip(skiplist_t *list, int value);
 
 /*HELPER PROTOTYPES*/
 int advanced_binary_recursive(int *array, size_t left, size_t right, int value);
-void free_skiplist(skiplist_t *list);
-void free_skiplist(skiplist_t *list);
-void print_skiplist(const skiplist_t *list);
 
 #endif
